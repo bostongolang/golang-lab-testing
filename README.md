@@ -13,7 +13,8 @@ We have identified some projects in the [projects/](/projects) folders with inst
 
 2. PLEASE BRING: A text editor or IDE suitable for writing Go code.
   * For beginners, [Sublime](http://www.sublimetext.com) is a good option. Make sure you install the Go plugin [here](https://github.com/DisposaBoy/GoSublime).
-  * For VIM users, there is a pretty nice VIM setup [here](https://github.com/fatih/vim-go).  
+  * For VIM users, there is a pretty nice VIM setup [here](https://github.com/fatih/vim-go).
+  * For IDE users who want to use an IDE made for Go, [LiteIDE](https://github.com/visualfc/liteide) is a good IDE that's easy to use.
 
 3. PLEASE HAVE:  Some basic Go language exposure.  You should be familiar with the Go basics: e.g., Go's types, structs, control flow structures, goroutines, and channels.   
 Other programming language experience and concepts (such as networking, etc) will be helpful. A good introduction to the basics of Go for people familiar with 
