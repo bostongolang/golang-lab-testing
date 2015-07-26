@@ -20,5 +20,5 @@ blah
 fff  fff
 ```
 
-1. :star2: Verify an error is returned. 
+1. :star2: Verify an error is returned on `sshconfig.Parse(reader(hostSection))`. 
 
