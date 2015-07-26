@@ -19,8 +19,8 @@ cd $GOPATH/src
 mkdir -p github.com/<youraccount>
 cd github.com/<youraccount>
 git clone git@github.com:<youraccount>/go-notify.git
+cd go-notify
 ```
-cd into `go-notify` path.
 
 1. :star2: There are no tests yet, so create an empty file called `notify_test.go` that looks like the following:
 
