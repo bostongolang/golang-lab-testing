@@ -8,7 +8,7 @@ Please see the [readme](https://github.com/bitly/go-notify) for an example of it
 
 ## Step 1: Project Setup
 
-1. :star2: Fork the Github project [https://github.com/bitly/go-notify](https://github.com/xeonx/go-notify).
+1. :star2: Fork the Github project [https://github.com/bitly/go-notify](https://github.com/bitly/go-notify).
 
   * :question: If you need help, please see [this document](https://help.github.com/articles/fork-a-repo/) or ask a TA for help.
 
@@ -25,6 +25,7 @@ cd into `go-notify` path.
 1. :star2: There are no tests yet, so create an empty file called `notify_test.go` that looks like the following:
 
 ```
+$ cat notify_test.go
 package notify
 ```
 
