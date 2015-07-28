@@ -10,7 +10,7 @@ func TestFlushReturnsNoKeys() {
 }
 ```
 
-1. :star2: In `TestFlushReturnsNoKeys`, use the `Set` command to write some data (see [example](https://github.com/hoisie/redis/blob/master/redis_test.go#L33-L37)). Verify no error is returned.
+1. :star2: In `TestFlushReturnsNoKeys`, use the `Set` command to write some data to the "test-flush" key (see [example](https://github.com/hoisie/redis/blob/master/redis_test.go#L33-L37)). Verify no error is returned.
 
 1. :star2: In the same method, call `client.Flush(false)` (code [here](https://github.com/hoisie/redis/blob/master/redis.go#L458-L470)) and verify that no error is returned. 
 
