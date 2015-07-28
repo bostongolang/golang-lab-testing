@@ -67,4 +67,10 @@ Projects are listed below with also some basic background of knowledge/content t
  * [passwd](/projects/basic/passwd) - knowledge of /etc/passwd files format (nice but not required)
  * [sshconfig](/projects/basic/sshconfig) - knowledge of ~/.ssh/config files format (nice but not required)
 
+#### Advanced 
+* [short](/projects/advanced/short) - testing a web app with redis 
+* [koala](/projects/advanced/koala) - testing a command line tool for formatting file listing outputs 
+
+
+
 
