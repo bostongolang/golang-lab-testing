@@ -17,8 +17,8 @@ cd $GOPATH/src
 mkdir -p github.com/<youraccount>
 cd github.com/<youraccount>
 git clone git@github.com:<youraccount>/sshconfig.git
+cd sshconfig
 ```
-cd into `sshconfig` path.
 
 1. :star2: Run `go test -v .` to ensure that the test run.
 
