@@ -17,7 +17,7 @@ cd $GOPATH/src
 mkdir -p github.com/<youraccount>
 cd github.com/<youraccount>
 git clone git@github.com:<youraccount>/gocsv.git
-cd `gocsv`
+cd gocsv
 ```
 
 
