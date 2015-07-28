@@ -2,6 +2,8 @@
 
 *Difficulty Level: Advanced*
 
+The goal is to write at minimum 2 tests: one that tests the output of a POST to generate a shortened URL, and one that verifies that the valid shortened URL redirect is returned.
+
 Note - these tests will have less guidance than the `basic` tests.  You may also have to refactor some of the original project code
 to make it more testable.  Here are some ideas on how to setup tests for the project.
 
