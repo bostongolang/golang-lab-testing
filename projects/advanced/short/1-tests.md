@@ -1,6 +1,6 @@
 # Create URL shortener tests 
 
-*Difficulty Level: Advanced *
+*Difficulty Level: Advanced*
 
 Note - these tests will have less guidance than the `basic` tests.  You may also have to refactor some of the original project code
 to make it more testable.  Here are some ideas on how to setup tests for the project.
@@ -17,4 +17,4 @@ set up your tests to work? Some ideas:
 1. :star2: Write a test that tests creation of a shortened URL works correctly for the URL http://example.com (see the curl command in the README for an example of the JSON
 parameters expected).  
 
-1. :star2: Write a test that verifies GETTing a shortened URL returns a HTTP redirect to the correct website.
+1. :star2: Write a test that verifies GETing a shortened URL returns a HTTP redirect to the correct website.  E.g., if the POST request above returns http://127.0.0.1/ABC, running GET http://127.0.0.1/ABC should redirect me to http://example.com.
