@@ -1,0 +1,20 @@
+# Create URL shortener tests 
+
+*Difficulty Level: Advanced *
+
+Note - these tests will have less guidance than the `basic` tests.  You may also have to refactor some of the original project code
+to make it more testable.  Here are some ideas on how to setup tests for the project.
+
+1. :star2: Currently, the `short.go` server code [requires a redis server connection](https://github.com/johnnye/short/blob/master/short.go#L36-L46). How can you 
+set up your tests to work? Some ideas:
+   
+  * Refactor the code so that you can supply a mock 'redis' server
+  * Require a redis localhost connection to run the tests, and create a setup function you run [TestMain](http://golang.org/pkg/testing/) that will clear the redis database
+    and prepare for a test connection.
+
+1. :star2: To do a full integration test, you can start up the webserver in `TestMain`.  Think about how you will do this.
+
+1. :star2: Write a test that tests creation of a shortened URL works correctly for the URL http://example.com (see the curl command in the README for an example of the JSON
+parameters expected).  
+
+1. :star2: Write a test that verifies GETTing a shortened URL returns a HTTP redirect to the correct website.
