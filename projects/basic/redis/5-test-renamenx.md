@@ -2,6 +2,8 @@
 
 *Difficulty Level: Medium*
 
+Renamenx renames a key if it doesn't exist.  Redis docs are [here](http://redis.io/commands/renamenx).
+
 1. :star2:  In `redis_test.go`, create a `TestRenamenxChangesKey` function to test the renaming of a key.  Code is [here](https://github.com/hoisie/redis/blob/master/redis.go#L412-L418)
 
 ```

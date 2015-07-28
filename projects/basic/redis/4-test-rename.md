@@ -2,9 +2,11 @@
 
 *Difficulty Level: Medium*
 
+Rename() changes the name of a redis key.  Redis docs are [here](http://redis.io/commands/rename).
+
 1. :star2:  In `redis_test.go`, create a `TestRenameChangesKey` function to test the renaming of a key.
 
-```
+```go
 func TestRenameChangesKey() {
   // TODO your test code here  
 }

@@ -2,7 +2,9 @@
 
 *Difficulty Level: Easy*
 
-1. :star2:  In `redis_test.go`, create a `TestRandomkey` function 
+`Randomkey()` ([Redis API docs](http://redis.io/commands/RANDOMKEY)) should return a random key. 
+
+1. :star2:  In `redis_test.go`, create a `TestRandomkey` function.  
 
 ```
 func TestRandomkey() {
