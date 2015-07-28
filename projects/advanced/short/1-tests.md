@@ -12,9 +12,9 @@ set up your tests to work? Some ideas:
   * Require a redis localhost connection to run the tests, and create a setup function you run [TestMain](http://golang.org/pkg/testing/) that will clear the redis database
     and prepare for a test connection.
 
-1. :star2: To do a full integration test, you can start up the webserver in `TestMain`.  Think about how you will do this.
+1. :star2: Since this is a webserver, you will need to think about what strategy you are going to test the POST and GET handlers.  To do a full integration test, you can start up the webserver in `TestMain`.  Or, you can build mocks for each handler as described in this [document](http://www.markjberger.com/testing-web-apps-in-golang/).
 
-1. :star2: Write a test that tests creation of a shortened URL works correctly for the URL http://example.com (see the curl command in the README for an example of the JSON
+1. :star2: Write a test that verifies the POST to / correctly returns a shortened URL for the URL http://example.com (see the curl command in the README for an example of the JSON
 parameters expected).  
 
 1. :star2: Write a test that verifies GETing a shortened URL returns a HTTP redirect to the correct website.  E.g., if the POST request above returns http://127.0.0.1/ABC, running GET http://127.0.0.1/ABC should redirect me to http://example.com.
