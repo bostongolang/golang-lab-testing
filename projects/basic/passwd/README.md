@@ -17,7 +17,7 @@ cd $GOPATH/src
 mkdir -p github.com/<youraccount>
 cd github.com/<youraccount>
 git clone git@github.com:<youraccount>/passwd.git
-cd `passwd`
+cd passwd
 ```
 
 1. :star2: There are no tests yet, so create an empty file called `passwd_test.go` that looks like the following:
