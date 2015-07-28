@@ -58,14 +58,16 @@ You can also email me directly: [jandre+bostongolang@gmail.com](mailto:jandre+bo
 Projects are organized into 'basic' and 'advanced'.  Basic tests require very little experience and will walk you through the types of tests to create, the 
 advanced tests are more free form (although some guidance is provided).
 
-Projects are listed below with also some basic background of knowledge/content to best prepare you to write the tests:
+Projects are listed below roughly in order of least -> most difficult, also included is some basic background of knowledge/content you should have to be able to
+successfully write the tests:
 
 #### Basic 
  * [timeago](/projects/basic/timeago) - no knowledge required 
- * [gocsv](/projects/basic/go-csv) - knowledge of CSV files 
- * [go-notify](/projects/basic/go-notify) - basic knowledge channels, goroutines
+ * [gocsv](/projects/basic/go-csv) - knowledge of CSV files helpful 
+ * [go-notify](/projects/basic/go-notify) - basic knowledge of channels, goroutines helpful
  * [passwd](/projects/basic/passwd) - knowledge of /etc/passwd files format (nice but not required)
  * [sshconfig](/projects/basic/sshconfig) - knowledge of ~/.ssh/config files format (nice but not required)
+ * [redis](/projects/basic/redis) - some knowledge of Redis helpful
 
 #### Advanced 
 * [short](/projects/advanced/short) - testing a web app with redis 
