@@ -1,8 +1,8 @@
-# Refactor the directory listing code
+# Refactor the directory listing code and write tests that test the directory listing, and directory listing formatting.
 
 *Difficulty Level: Advanced*
 
-The goal of this task is to refactor the directory parsing and formatting code to make it more testable.  
+The goal of this task is to refactor the directory parsing and formatting code to make it more testable, and then write tests that verify the output of the selected directory listing formatting (currently, lisp, space, comma, and null are supported).  
 
 1. :star2: In `koala.go`, create two functions that encapsulate selected code from the main function.  The 
 
