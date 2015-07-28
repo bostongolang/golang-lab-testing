@@ -21,9 +21,9 @@ Currently, this function runs the demo. Let's convert the [Demo function](https:
 
   * Hint: you may have to write a helper function to compare arrays, or maybe look at using `reflect.DeepEqual()`.
 
-1. :star2: Verify that `GetColumns` returns 5.
+1. :star2: Verify that `GetColumns()` returns 5.
 
-1. :star2: Verify that `GetRows` returns 3.
+1. :star2: Verify that `GetRows()` returns 3.
 
 1. :star2: Verify that `GetRow(2)` returns the correct values for the second row.
 
